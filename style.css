@@ -1,0 +1,471 @@
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* start header*/
+.header .slider{
+    background-image: url('../web_development/images/gg.png');
+  
+    background-size: cover;
+    height: 600px;
+}
+.header .slider .intro{
+    padding-top: 300px;
+    text-align: center;
+    color: #FFF;
+}
+.header .slider h2{
+    margin: 0 auto;
+    border-top:4px solid #FFF;
+width: 600px;
+font-size: 50px;
+    border-bottom:4px solid #FFF;
+    padding: 5px 0px;
+    text-transform: capitalize;
+}
+.header .slider .intro button{
+    background: none;
+    color: #F2F2F2;
+    padding: 5px 20px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #FFF;
+}
+.header .navbar{
+    background-color:#252F31 ;
+    color: snow;
+    overflow: hidden;
+}
+.header .navbar h2{ float: left; text-transform: uppercase;}
+.header .navbar span{
+    color: springgreen;
+}
+.header .navbar .container ul{
+list-style: none;
+padding-left: 0px;
+overflow: hidden;
+float: right;
+
+}
+.header .navbar .container ul li{
+padding: 10px;
+float: left;
+}
+.header .navbar .container ul li a{
+    text-decoration: none;
+    color: #ddd;
+}
+.header .navbar .container ul li a.active,
+.header .navbar .container ul li a:hover{
+    color: rgb(67, 156, 156);
+}
+/* end header*/
+
+/* start feature*/
+.feature{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.feature .feat{
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+}
+.feature .feat h2{
+    text-transform: capitalize;
+    color: rgb(70, 71, 71);
+}
+.feature .feat p{
+padding-right: 30px;
+color:rgb(92, 94, 94) ;
+line-height: 1.8;
+    text-align: justify;
+}
+/* end feature*/
+/*start aboutme*/
+.aboutme{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.aboutme .imges{
+float: left;
+width: 60%;
+}
+.aboutme .imges img{
+    width: 90%;
+}
+.aboutme .info{
+    padding-top: 40px;
+    float: left;
+    width: 40%;
+}
+
+.aboutme .info p{line-height: 1.6; color: #666;}
+.aboutme .info h2{color: rgb(68, 68, 68);}
+
+.aboutme .info .hobbies{
+margin-top: 20px;
+    overflow: hidden;
+}
+.aboutme .info .hobbies .content{
+    float: left;
+width: 50%;
+min-height: 100px;
+}
+.aboutme .info .hobbies .content .icon{
+    float: left;
+    width: 15%;
+    margin-right: 10%;
+}
+.aboutme .info .hobbies .content .icon img{max-width: 100%; margin: 25px 10px 0px 10px;}
+.aboutme .info .hobbies .content .text{
+    float: left;
+    width: 75%;
+}
+
+
+.aboutme .info .hobbies > div h2{color: rgb(68, 68, 68);}
+/* end aboutme*/
+/* start skills*/
+.skills{
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.skills .div1{
+    width: 50%;
+    float: left;
+}
+.skills .div1 h2{    margin-left: 40px;        color: rgb(46, 45, 45);
+
+    text-transform: uppercase;
+}
+.skills .div1 p{
+    margin-left: 40px;   line-height: 1.8;
+}
+.skills .div1 input[type=button]{
+    margin-top: 20px; margin-left: 40px; 
+border: 3px solid rgb(54, 185, 54);
+color: rgb(54, 185, 54);
+font-weight: bold;
+text-transform: uppercase;
+width: 150px;
+height: 35px;
+background: none;
+}
+
+.skills .div2{
+    float: left;
+    width: 50%;
+overflow: hidden;
+}
+.skills .div2 .tech{
+margin-left: 50px;
+text-transform: uppercase;
+}
+skills .div2 .tech div {
+    background-color: #F2F2F2;
+    height: 25px;
+}
+.skills .div2 .tech div span{
+    background-color: rgb(2, 170, 58);
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    color: #FFF;
+    text-align: right;
+    font-weight: bold;
+}
+
+/*end skills*/
+/*start resume*/
+.resume{
+    background-color: #F2F2F2;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.resume h2{
+text-transform: uppercase;
+color: #666;
+font-weight: bold;
+}
+.resume .container{
+    width:900px ;
+}
+.resume p{
+    color: #666;
+}
+.resume input[type=button]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(54, 185, 54);
+    border: 3px solid rgb(54, 177, 54);
+    text-transform: uppercase;
+    width: 200px;
+    height: 35px;
+    }
+/*end resume*/
+
+/* start myeducation*/
+.myeducation{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.myeducation .div1{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+.myeducation .div1 h2{
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+}
+.myeducation .div1 p{    margin-left: 40px;}
+
+.myeducation .div2{
+    float: left;
+    width: 45%;
+overflow: hidden;
+}
+.myeducation .div2 .d2 h2{
+    text-transform: capitalize;
+}
+.myeducation .div2 .d2 span:first-of-type{
+    display: block;
+    text-transform: uppercase;
+    color: #252F31;
+}
+.myeducation .div2 .d2{
+    margin-top: 70px;
+}
+.myeducation .div2 .d2 h3{
+    text-transform:capitalize ;
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+}
+.myeducation .div2 .d2 span:last-of-type{
+    background-color: rgb(54, 185, 54);
+    color: #FFF;
+    padding: 5px 10px;
+
+display: inline-block;
+margin: 10px auto 25px auto;
+}
+/*end skills*/
+/* start workexp*/
+.workexp{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.workexp .div1{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+.workexp .div1 h2{    margin-left: 40px;
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.workexp .div1 p{    margin-left: 40px;}
+
+.workexp .div2{
+    float: left;
+    width: 45%;
+overflow: hidden;
+}
+.workexp .div2 .d2 h2{
+    text-transform: capitalize;
+}
+.workexp .div2 .d2 span:first-of-type{
+    display: block;
+    text-transform: uppercase;
+    color: #252F31;
+}
+.workexp .div2 .d2{
+    margin-top: 70px;
+}
+.workexp .div2 .d2 h3{
+    text-transform:capitalize ;
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+}
+.workexp .div2 .d2 span:last-of-type{
+    background-color: rgb(54, 185, 54);
+    color: #FFF;
+    padding: 5px 10px;
+display: inline-block;
+margin: 10px auto 25px auto;
+}
+/*end workexp*/
+
+/*start feed*/
+.feed{
+    background-color: rgb(231, 220, 220);
+    overflow: hidden;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.feed h3{
+    
+    text-transform: uppercase;
+    color: rgb(70, 68, 68);
+    margin-top: 30px;
+}
+.feed q{
+    font-style: italic;
+    line-height: 1.8;
+    color: #888;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.feed ul{
+    text-align: center;
+    padding-left: 0px;
+    list-style: none;
+}
+.feed ul li{
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgb(54, 185, 54);
+display: inline-block;
+cursor: pointer;
+}
+.feed ul li.active,
+ .feed ul li:hover{
+    background-color: rgb(54, 185, 54);
+}
+/*end feed*/
+
+/*        <!-- start portfolio-->*/
+.portfolio{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.portfolio h2{
+        color: #777;
+    text-transform: uppercase;
+}
+.portfolio p{
+    color: #666;
+    line-height: 1.7;
+}
+.portfolio .imges{
+    margin-top: 90px;
+}
+.portfolio .imges >div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+.portfolio .imges img{
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 12px #CCC;
+}
+/*        <!-- end portfolio-->*/
+/* start contactme*/
+.contactme{
+    overflow: hidden;
+    background-color: #252F31;
+    padding-bottom: 70px;
+    padding-top: 50px ;
+}
+.contactme h2{
+    margin-left: 40px;
+
+    color: #FFF;
+}
+.contactme p,address{
+    margin-left: 40px; line-height: 1.7;
+    color: rgb(201, 195, 195);
+}
+.contactme .info{
+    float: left;
+    width: 50%;
+margin-right: 5%;
+}
+.contactme .form{
+    float: left;
+    width: 45%;  
+}
+.contactme p strong{
+    color: #FFF;
+}
+.contactme .form label{
+    display: block;
+    margin: 10px 0px;
+    color: #FFF;   
+}
+.contactme .form input[type="text"]{
+background-color: #4B5557;
+color: #FFF;
+padding: 10px;
+border: 0px;
+width: 80%;
+margin-bottom: 10px;
+
+}
+.contactme .form textarea{
+    background-color: #4B5557;
+    color: #FFF;
+    width: 80%;
+    height: 280px;  
+    border: 0px;
+}
+.contactme .form input[type="submit"]{
+    background-color: #191E22;
+    border: 0px;
+    padding: 10px 20px;
+    color: #FFF;
+    margin-top: 10px;
+}
+/* end contactme */
+
+/* start footer*/
+.footer{
+    background-color:#191E22 ;
+    padding-top: 50px 0px;
+
+overflow: hidden;
+text-align: center;
+color: #ddd;
+}
+.footer span{
+    font-size: 15px;
+    padding-top: 40px;
+    display: block;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 3px;
+}
+
+
+/* end footer*/
